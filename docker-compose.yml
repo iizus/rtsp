@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+	rtsp:
+		build: .
+		ports:
+			- '8554:8554'
+	kvs:
+		image: 'kvs'
